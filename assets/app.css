@@ -1,0 +1,346 @@
+/*@import url(http://fonts.googleapis.com/css?family=Oswald:400,700); */
+/* line 11, ../../app/assets/stylesheets/app.css.sass */
+code, pre {
+  font-family: "Courier New", monospace !important;
+  background: #2a2a2a;
+  color: #eaeaea;
+  padding-left: 0.5em !important;
+  padding-right: 0.5em !important;
+}
+
+body {
+  font-size: 16pt;
+  line-height: 165%;
+  font-family: "Helvetica", sans-serif;
+}
+
+/* line 18, ../../app/assets/stylesheets/app.css.sass */
+#navbar {
+  background-color: #9f9f9f;
+  border-top: solid 4px #2a2a2a;
+  border-bottom: solid 1px #777777;
+  padding: 7px 20px 7px 20px;
+  margin-bottom: 10px;
+  height: 100px;
+}
+/* line 26, ../../app/assets/stylesheets/app.css.sass */
+#navbar .title {
+  color: #eaeaea;
+  font-face: bold;
+  font-size: 16pt;
+}
+/* line 31, ../../app/assets/stylesheets/app.css.sass */
+#navbar img {
+  padding-top: 10px;
+  width: 500px;
+}
+/* line 35, ../../app/assets/stylesheets/app.css.sass */
+#navbar h1 {
+  font-size: 48pt;
+  margin-top: 0.3em;
+}
+
+/* line 38, ../../app/assets/stylesheets/app.css.sass */
+#footer {
+  background-color: #9f9f9f;
+  border-bottom: solid 4px #2a2a2a;
+  border-top: solid 1px #777777;
+  padding: 7px 20px 7px 20px;
+  margin-bottom: 10px;
+  height: 100px;
+}
+
+/* line 45, ../../app/assets/stylesheets/app.css.sass */
+a {
+  color: #3471ba !important;
+}
+
+/* line 48, ../../app/assets/stylesheets/app.css.sass */
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+/* line 54, ../../app/assets/stylesheets/app.css.sass */
+.columns {
+  float: left;
+  height: 100%;
+  min-height: 50px;
+  display: inline;
+  padding: 0 10px 0 10px;
+}
+
+.pushThree {
+  width: 960px;
+  padding-left: 240px;
+}
+
+/* line 61, ../../app/assets/stylesheets/app.css.sass */
+.row {
+  clear: both;
+}
+
+/* line 64, ../../app/assets/stylesheets/app.css.sass */
+.nine.columns {
+  width: 630px;
+}
+
+/* line 67, ../../app/assets/stylesheets/app.css.sass */
+.two.columns {
+  width: 140px;
+}
+
+/* line 70, ../../app/assets/stylesheets/app.css.sass */
+.three.columns {
+  width: 210px;
+}
+
+/* line 74, ../../app/assets/stylesheets/app.css.sass */
+.header-links li {
+  padding: 45px 10px 0;
+  display: inline-block;
+  font-size: 11pt;
+}
+/* line 78, ../../app/assets/stylesheets/app.css.sass */
+.header-links a {
+  height: 25px;
+  display: inline-block;
+  color: #eaeaea !important;
+}
+
+/* line 83, ../../app/assets/stylesheets/app.css.sass */
+#contact {
+  padding: 1em 0;
+}
+
+/* line 86, ../../app/assets/stylesheets/app.css.sass */
+.container {
+  background-image: url(ricepaper2.png) !important;
+}
+
+/* line 89, ../../app/assets/stylesheets/app.css.sass */
+body {
+  background-image: url(low_contrast_linen.png);
+}
+
+/* line 92, ../../app/assets/stylesheets/app.css.sass */
+#navbar, #cta {
+  background-image: url(low_contrast_linen.png);
+}
+
+/* line 95, ../../app/assets/stylesheets/app.css.sass */
+.linen {
+  background-image: url(low_contrast_linen.png);
+}
+/* line 96, ../../app/assets/stylesheets/app.css.sass */
+.linen h1, .linen h2, .linen h3, .linen h4, .linen h5 {
+  color: #eaeaea;
+}
+/* line 99, ../../app/assets/stylesheets/app.css.sass */
+.linen a h5 {
+  color: #7aa6da !important;
+  display: inline;
+  padding-left: 2em;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* line 103, ../../app/assets/stylesheets/app.css.sass */
+#featured p {
+  color: #2a2a2a !important;
+}
+/* line 105, ../../app/assets/stylesheets/app.css.sass */
+#featured div.thumb {
+  height: 200px;
+  border: solid 1px #777777;
+}
+/* line 109, ../../app/assets/stylesheets/app.css.sass */
+#featured div {
+  margin-bottom: 15px;
+}
+@media handheld, only screen and (min-width: 767px) {
+  /* line 109, ../../app/assets/stylesheets/app.css.sass */
+  #featured div {
+    margin-left: 3%;
+  }
+}
+/* line 114, ../../app/assets/stylesheets/app.css.sass */
+#featured > div:first-child {
+  margin-left: 1.5% !important;
+}
+/* line 116, ../../app/assets/stylesheets/app.css.sass */
+#featured div div:first-child {
+  margin-left: 0px !important;
+}
+
+/* line 119, ../../app/assets/stylesheets/app.css.sass */
+#byliner {
+  background-image: url(/images/byliner.png);
+}
+
+/* line 122, ../../app/assets/stylesheets/app.css.sass */
+#insuranceagents {
+  background-image: url(/images/insuranceagents.png);
+  background-position: 85%;
+}
+
+/* line 126, ../../app/assets/stylesheets/app.css.sass */
+#caplinked {
+  background-image: url(/images/caplinked.png);
+}
+
+/* line 129, ../../app/assets/stylesheets/app.css.sass */
+#featured_orbit {
+  height: 200px !important;
+}
+
+/* line 132, ../../app/assets/stylesheets/app.css.sass */
+.caption {
+  display: none;
+}
+
+/* line 135, ../../app/assets/stylesheets/app.css.sass */
+a {
+  color: #3471ba;
+}
+
+/* line 138, ../../app/assets/stylesheets/app.css.sass */
+div.orbit-caption {
+  color: black !important;
+  display: normal;
+  position: relative;
+  top: 250px;
+  background: inherit !important;
+  font-size: 16px !important;
+}
+
+/* line 147, ../../app/assets/stylesheets/app.css.sass */
+select {
+  display: inline-block !important;
+  background-color: #eaeaea;
+  color: #555;
+  vertical-align: baseline;
+  font-size: 13pt;
+  border: 1px solid #ccc;
+  padding: 2px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+
+/* line 159, ../../app/assets/stylesheets/app.css.sass */
+textarea {
+  font-family: "Helvetica Neue", "HelveticaNeue", Arial, sans-serif;
+}
+
+/* line 162, ../../app/assets/stylesheets/app.css.sass */
+.button.red.nice {
+  background-color: #d54e53 !important;
+  border-color: #803c3f;
+}
+/* line 165, ../../app/assets/stylesheets/app.css.sass */
+.button.red.nice h1, .button.red.nice h2, .button.red.nice h3, .button.red.nice h4, .button.red.nice h5, .button.red.nice h6 {
+  color: #eaeaea !important;
+  vertical-align: middle;
+}
+
+/* line 169, ../../app/assets/stylesheets/app.css.sass */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Oswald", Arial, sans-serif !important;
+  font-weight: normal !important;
+  color: #2a2a2a;
+}
+/* line 174, ../../app/assets/stylesheets/app.css.sass */
+a h1, a h2, a h3, a h4, a h5, a h6 {
+  color: #3471ba !important;
+}
+/* line 177, ../../app/assets/stylesheets/app.css.sass */
+h1#hero, h2#hero, h3#hero, h4#hero, h5#hero, h6#hero {
+  text-align: center;
+  font-size: 60pt;
+  margin: 10px 0 30px 0;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+/* line 183, ../../app/assets/stylesheets/app.css.sass */
+#contact {
+  padding-top: 20px;
+  text-align: center;
+}
+
+/* line 187, ../../app/assets/stylesheets/app.css.sass */
+#cta {
+  padding-top: 20px !important;
+  height: 200px;
+}
+
+/* line 191, ../../app/assets/stylesheets/app.css.sass */
+.bio {
+  background: url("/images/alex.png") no-repeat;
+  padding-left: 15px;
+}
+/* line 192, ../../app/assets/stylesheets/app.css.sass */
+.bio h6 {
+  font-style: italic;
+}
+
+/* line 198, ../../app/assets/stylesheets/app.css.sass */
+fieldset.boxchecks {
+  padding: 0;
+  border: 0;
+}
+/* line 202, ../../app/assets/stylesheets/app.css.sass */
+fieldset.boxchecks label {
+  display: inline-block;
+  float: left;
+  border: 1px solid #efefef;
+  padding: 7px;
+  margin: 5px;
+}
+/* line 209, ../../app/assets/stylesheets/app.css.sass */
+fieldset.boxchecks label.fullwidth {
+  float: none;
+  width: 90%;
+}
+/* line 213, ../../app/assets/stylesheets/app.css.sass */
+fieldset.boxchecks label.active {
+  background-color: #cb9e9f;
+  border: 1px solid #2a2a2a;
+}
+/* line 218, ../../app/assets/stylesheets/app.css.sass */
+fieldset.boxchecks.hiddenbuttons input {
+  display: none;
+}
+
+/* line 221, ../../app/assets/stylesheets/app.css.sass */
+p.small {
+  font-size: 100%;
+}
+
+/* line 224, ../../app/assets/stylesheets/app.css.sass */
+ul.inline-list li {
+  display: block;
+  width: 33%;
+  float: left;
+  border-bottom: 1px solid #2a2a2a;
+  height: 3em;
+}
+
+/* line 231, ../../app/assets/stylesheets/app.css.sass */
+.bulleted ul li {
+  list-style-type: circle;
+  margin-left: 2em;
+}
+
+/* line 235, ../../app/assets/stylesheets/app.css.sass */
+.row {
+  padding-top: 1em;
+}
+
+/* line 238, ../../app/assets/stylesheets/app.css.sass */
+.dateright {
+  float: right;
+}
